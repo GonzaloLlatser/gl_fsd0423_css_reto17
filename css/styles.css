@@ -1,0 +1,167 @@
+
+.backcontainer{
+    height: 31em;
+    width: 38em;
+    display: flex;
+    gap: 1em;
+    flex-direction: column; /* sirve para cambiar las lineas de la tabla */
+    background: url(/img/fondo-primavera-dibujado-flores_23-2148833619.avif);
+    display: flex;
+}
+
+
+.row1 {
+    display: flex
+}
+.cell1{
+    height: 8em;
+    width: 8em;
+    background-image: url(/img/IMAGEN0.png);
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.margen{
+    height: 8em;
+    width: 8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.cell2{
+    background-image: url(/img/IMAGEN0.png);
+    height: 6em;
+    width: 6em;
+    text-align: center;
+    
+}
+.cell3 {
+    height: 8em;
+    width: 8em;
+    background-image: url(/img/IMAGEN5.jpg);
+    background-size: contain;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.margen1{
+    height: 8em;
+    width: 8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(248, 234, 234);
+}
+
+.cell4{
+    background-image: url(/img/IMAGEN5.jpg);
+    background-size: contain;
+    height: 6em;
+    width: 6em;
+    text-align: center;
+}
+
+.cell5{
+    height: 8em;
+    width: 8em;
+    background-image: url(/img/IMAGEN2.jpg);
+    background-size: contain; /* sirve para adecuar contenido al tamaño de la caja */
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.row2, .row3{
+    display: flex;
+}
+
+.cell6{
+    background-image: url(/img/IMAGEN2.jpg);
+    background-size: contain;
+    height: 6em;
+    width: 6em;
+    text-align: center;
+}
+
+.cell7{
+    display: flex;
+    height: 8em;
+    width: 8em;
+    background: url(/img/IMAGEN3.jpg);
+    background-color:rgb(248, 234, 234);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    justify-content: center; 
+}
+
+.cell8{
+    display: flex;
+    height: 8em;
+    width: 8em;
+    background: url(/img/IMAGEN4.jpg);
+    background-color:rgb(248, 234, 234);
+    background-position: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    justify-content: center; 
+}
+
+.cell9{
+    height: 8em;
+    width: 8em;
+    background-image: linear-gradient(to left, rgb(41, 125, 18), rgb(88, 245, 109));
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.cell10{
+    height: 8em;
+    width: 8em;
+    background-image: linear-gradient(to top, rgb(155, 97, 15), rgb(230, 172, 48));
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.cell11{
+    height: 8em;
+    width: 8em;
+    background-image: linear-gradient(to bottom, rgb(202, 239, 187), rgb(4, 69, 21));
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+}
+
+.cell12{
+    height: 8em;
+    width: 8em;
+    margin-top: 1em;
+    margin-left: 1em;
+    border: 0.1em solid black;
+    text-align: center;
+    background-color: rgba(27, 93, 9, 0.7);
+    opacity: 0.5
+}
